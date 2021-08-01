@@ -1,0 +1,62 @@
+.App {
+  max-height: 100vh;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.background1 {
+  min-height: 150vh;
+  min-width:150vh;
+  border-radius: 100%;
+  position: relative;
+  background-color: #9a7272;
+  box-shadow: 5px 10px 10px #adadad;
+  margin-left:-30%;
+  animation: entrance 5s;
+}
+
+@keyframes entrance {
+  from {background-color: #ffffff;}
+  to {background-color: #9a7272;}
+  50% {box-shadow: 10px 20px 30px #adadad;}
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Accordion {
+  color: #2d90a1;
+}
+.welcomeTitle {
+  font-weight: bold;
+  min-width:20vw;
+  text-align: center;
+  color: #9a7272;
+}
+.newAccountTitle {
+  min-width:20vw;
+  text-align: center;
+  font-weight: lighter;
+}
+.welcomeMessage {
+  color: #2d90a1;
+  margin-bottom: 3vh;
+  font-weight: lighter;
+}
+.newAccountMessage{
+  color: #2da146;
+  margin-bottom: 3vh;
+  font-weight: lighter;
+}
+
+.fillInAllMessage{
+  color: #882da1;
+  margin-left: 2vw;
+  font-weight: lighter;
+  font-style: italic;
+}

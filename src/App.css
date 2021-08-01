@@ -1,0 +1,156 @@
+.pageContainer{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 25vw auto auto auto;
+    grid-template-rows: 7vh 93vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.header {
+    grid-row: 1/2;
+    grid-column: 1/5;
+    background-color: #9a7272;
+    color: white;
+    display: block;
+}
+
+.sideBar{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-color: #e8e8e8;
+}
+
+.content{
+    background-color: #ffffff;
+    grid-row: 2/2;
+    grid-column:2/5;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.title{
+    margin: 1.5vh;
+    font-size: 3vh;
+    font-weight: bold;
+    color: #c6a2a2;
+}
+.sectionTitle{
+    margin: 1.5vh;
+    font-size: 3vh;
+    font-weight: lighter;
+}
+.projectTitle{
+    margin: 1.5vh;
+    font-size: 3vh;
+    font-weight: normal;
+    color: grey;
+}
+.subSectionTitle{
+    font-size: 2vh;
+}
+.subSectionTitle:hover{
+    font-size: 2vh;
+    color: #2d90a1;
+    cursor: pointer;
+}
+.cardBody{
+    max-width:25vw
+}
+.list {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.listTitle{
+    margin: 1.5vh;
+    font-size: 2vh;
+    font-weight: normal;
+}
+.listTitle:hover{
+    color: #2d90a1;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.subtitleContent{
+    margin: 1.5vh;
+    font-size: 2vh;
+    font-weight: lighter;
+}
+.cancelButton{
+    margin: 1.5vh 1.5vh 0 1.5vh;
+    font-size: 2vh;
+    font-weight: lighter;
+    float: right;
+}
+.headerButton{
+    margin: 1vh 1.5vh 0 1.5vh;
+    background-color: #9a7272;
+    border: none;
+    color: #c6a2a2;
+    font-size: 2vh;
+    font-weight: bold;
+    float: right;
+}
+.headerButton:hover{
+    color: #fcf0f0;
+}
+.editSection{
+    margin-top:8vh;
+}
+.subTitleContentTasks{
+    margin: 1.5vh;
+    font-size: 2vh;
+    font-weight: lighter;
+}
+.subTitleContentTasks:hover{
+    color: #2d90a1;
+    cursor: pointer;
+}
+
+.elementsListed{
+    margin-left: 5vh;
+    font-weight: lighter;
+    font-size: 2vh;
+}
+
+.inputErrors{
+    color: #805050;
+    font-size:2vh
+}
+
+.smallButton{
+    display: inline-block;
+}
+.saveButton{
+    margin-left: 2vw;
+}
+.welcomePage{
+    text-align: center;
+    padding: 20% 0;
+}
+
+.subsectionTitle{
+    font-size: 2vh;
+    font-weight: lighter;
+}
+.accordionTitle{
+    font-size: 2vh;
+    font-weight: lighter;
+}
+.accordionTitle:hover{
+    font-size: 2vh;
+    font-weight: lighter;
+    cursor: pointer;
+    color: #2d90a1;
+}
+.leftProjectDivision{
+    float: left;
+    width: 40vw;
+}
+.rightProjectDivision{
+    float:left;
+    background-color: #fcf0f0;
+    height: 92vh;
+    width: 35vw;
+}
