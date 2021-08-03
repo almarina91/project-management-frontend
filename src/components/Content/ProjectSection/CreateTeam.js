@@ -4,8 +4,11 @@ import UsersMultiple from "../common/UsersMultiple";
 import UsersSelect from "../common/UsersSelect";
 import { useNewProjectContext } from "../../../context/newProjectContext";
 
-function CreateTeam () {
+/**
+ * A component that returns a form to create a team.
+ */
 
+function CreateTeam () {
     // in context because it is shared with other components
     const { adminID,
         setAdminID,

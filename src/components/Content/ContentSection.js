@@ -10,6 +10,10 @@ import DeletedMessage from "./ProjectSection/DeletedMessage";
 import EditUser from "./EditUser/EditUser";
 import LogOut from "./LogOut/LogOut";
 
+/**
+ * A container component.
+ */
+
 function ContentSection() {
 
     const { displayWelcome,

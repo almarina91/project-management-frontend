@@ -6,6 +6,10 @@ import { useUserContext } from "../../../context/userContext";
 import { TasksContextProvider } from "../../../context/tasksContext";
 import { EditContextProvider } from "../../../context/editContext";
 
+/**
+ * Sidebar component, containing projects related to user
+ */
+
 function SideBar() {
 
     const { userData } = useUserContext();

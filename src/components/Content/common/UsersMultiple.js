@@ -1,5 +1,9 @@
 import { useAllUsersContext } from "../../../context/allUsersContext";
 
+/**
+ * Options for selecting users.
+ */
+
 function UsersMultiple(){
     const { allUsers } = useAllUsersContext();
     return(

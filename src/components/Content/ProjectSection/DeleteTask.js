@@ -6,6 +6,10 @@ import { useTasksContext } from "../../../context/tasksContext";
 import {useCurrentProjectContext} from "../../../context/currentProjectContext";
 import { CLASS, VARIANTS } from "../../../utils/enums";
 
+/**
+ * Returns options to remove a task.
+ */
+
 function DeleteTask(){
     const { requestUrl } = useGeneralContext();
     const { currentTask } = useTasksContext();

@@ -1,4 +1,4 @@
-import {CLASS, ROLE} from "../../../utils/enums";
+import { CLASS, ROLE } from "../../../utils/enums";
 import { useEffect } from "react";
 import { useGeneralContext } from "../../../context/generalContext";
 import { useUserContext } from "../../../context/userContext";
@@ -6,7 +6,11 @@ import { useTasksContext } from "../../../context/tasksContext";
 import { useCurrentProjectContext } from "../../../context/currentProjectContext";
 import { useDisplayContext } from "../../../context/displayContext";
 import { useEditContext } from "../../../context/editContext";
-import {useRefreshProjectListContext} from "../../../context/refreshProjectListContext";
+import { useRefreshProjectListContext } from "../../../context/refreshProjectListContext";
+
+/**
+ * A component that lists all the projects in a sidebar.
+ */
 
 function Projects () {
     const { userData, token, userProjects, setUserProjects } = useUserContext();

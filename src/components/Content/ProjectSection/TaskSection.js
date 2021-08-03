@@ -1,4 +1,4 @@
-import {CLASS, VARIANTS} from "../../../utils/enums";
+import { CLASS, VARIANTS } from "../../../utils/enums";
 import { Button, ProgressBar } from "react-bootstrap";
 import { useState } from "react";
 import EditTask from "./EditTask";
@@ -6,6 +6,10 @@ import DeleteTask from "./DeleteTask";
 import { useTasksContext } from "../../../context/tasksContext";
 import { useEditContext } from "../../../context/editContext";
 import { useAllUsersContext } from "../../../context/allUsersContext";
+
+/**
+ * A component that displays task section.
+ */
 
 function TaskSection() {
     const { setShowTaskDetails } = useEditContext();

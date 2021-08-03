@@ -1,6 +1,6 @@
 import React, {useEffect, useRef} from "react";
 import { Button, Col, Form, Row } from "react-bootstrap";
-import {CLASS, PLACEHOLDER, VARIANTS} from "../../../utils/enums";
+import { CLASS, PLACEHOLDER, VARIANTS } from "../../../utils/enums";
 import { useState } from "react";
 import { useGeneralContext } from "../../../context/generalContext";
 import UsersSelect from "../common/UsersSelect";
@@ -8,6 +8,10 @@ import StatusSelection from "../common/StatusSelection";
 import { useUserContext } from "../../../context/userContext";
 import { useCurrentProjectContext } from "../../../context/currentProjectContext";
 import { useEditContext } from "../../../context/editContext";
+
+/**
+ * A component that returns a form to create a new task for a project.
+ */
 
 function CreateTask(){
 

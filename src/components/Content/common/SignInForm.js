@@ -6,6 +6,13 @@ import { useFormik } from 'formik';
 import { useGeneralContext } from "../../../context/generalContext";
 import { useUserContext } from "../../../context/userContext";
 
+/**
+ * A component that returns the sign in form.
+ * @const validate - checks the user input
+ * @const inputUserData - values that user inputted that are validated
+ * @const fetchError - if there is some error in fetching, it is displayed
+ */
+
 const validate = values => {
     const errors = {};
     if (!values.email) {

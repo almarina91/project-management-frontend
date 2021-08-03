@@ -1,5 +1,9 @@
 import { OPTION_VALUES } from "../../../utils/enums";
 
+/**
+ * Options for status.
+ */
+
 function StatusSelection (){
     return(
         <>

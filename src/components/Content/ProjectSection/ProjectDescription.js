@@ -1,5 +1,9 @@
-import {CLASS} from "../../../utils/enums";
+import { CLASS } from "../../../utils/enums";
 import { useCurrentProjectContext } from "../../../context/currentProjectContext";
+
+/**
+ * A component that returns project details.
+ */
 
 function ProjectDescription(){
 
@@ -11,7 +15,6 @@ function ProjectDescription(){
             <p className={CLASS.subtitleContent}>details: </p>
             <p className={CLASS.elementsListed}>project code: <strong>{currentProject.code}</strong></p>
             <p className={CLASS.subtitleContent}>team:</p>
-
         </>
     )
 }

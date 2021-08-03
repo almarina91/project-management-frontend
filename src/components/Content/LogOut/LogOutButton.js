@@ -5,6 +5,10 @@ import { useHistory } from "react-router-dom";
 import { useGeneralContext } from "../../../context/generalContext";
 import { useUserContext } from "../../../context/userContext";
 
+/**
+ * A component that returns a button to log out from the current device only.
+ */
+
 function LogOutButton(){
     let history = useHistory();
 

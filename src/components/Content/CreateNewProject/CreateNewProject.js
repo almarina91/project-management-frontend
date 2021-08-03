@@ -10,6 +10,10 @@ import { useUserContext } from "../../../context/userContext";
 import { useCurrentProjectContext } from "../../../context/currentProjectContext";
 import { useRefreshProjectListContext } from "../../../context/refreshProjectListContext";
 
+/**
+ * A component that returns a section to create a new project.
+ */
+
 function CreateNewProject() {
 
     const { requestUrl, setProjectsVisible } = useGeneralContext();

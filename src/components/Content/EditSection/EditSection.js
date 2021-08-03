@@ -6,13 +6,19 @@ import TaskSection from "../ProjectSection/TaskSection";
 import DeleteProject from "../ProjectSection/DeleteProject";
 import { useEditContext } from "../../../context/editContext";
 
+/**
+ * A component that returns editing section.
+ */
+
 function EditSection(){
+
     const { addTaskChecked,
         setAddTaskChecked,
         showTaskDetails,
         editProjectChecked,
         setEditProjectChecked,
         deleteProjectChecked} = useEditContext();
+
     return(
         <>
             {(addTaskChecked || editProjectChecked || showTaskDetails || deleteProjectChecked) ?

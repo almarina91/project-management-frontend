@@ -5,6 +5,10 @@ import { useUserContext } from "../../../context/userContext";
 import { useFormik } from 'formik';
 import { useGeneralContext } from "../../../context/generalContext";
 
+/**
+ * A component that returns a section for user editing.
+ */
+
 const validate = values => {
     const errors = {};
 
@@ -152,7 +156,7 @@ function EditUser(){
                         </Col>
                     </Form.Group>
                     {displaySuccessMessage ?
-                        <p className={CLASS.subtitleContent}> changes saved! </p>
+                        <p className={CLASS.subtitleContent}> changes saved!</p>
                         :
                         <Button variant={VARIANTS.outlineInfo}
                                 type={BUTTON_TYPES.submit}

@@ -4,6 +4,10 @@ import React from "react";
 import LogOutAllButton from "./LogOutAllButton";
 import LogOutButton from "./LogOutButton";
 
+/**
+ * A component that returns a log out section.
+ */
+
 function LogOut(){
     return(
         <Form>

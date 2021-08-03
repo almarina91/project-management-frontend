@@ -6,7 +6,11 @@ import { useEffect, useRef, useState } from "react";
 import UsersMultiple from "../common/UsersMultiple";
 import { useUserContext } from "../../../context/userContext";
 import { useCurrentProjectContext } from "../../../context/currentProjectContext";
-import {useRefreshProjectListContext} from "../../../context/refreshProjectListContext";
+import { useRefreshProjectListContext } from "../../../context/refreshProjectListContext";
+
+/**
+ * Returns a form to edit a project.
+ */
 
 function EditProject() {
     const { requestUrl } = useGeneralContext();

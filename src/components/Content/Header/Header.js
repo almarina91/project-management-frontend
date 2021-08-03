@@ -1,6 +1,10 @@
 import { CLASS } from "../../../utils/enums";
 import { useDisplayContext } from "../../../context/displayContext";
 
+/**
+ * A component that returns a header.
+ */
+
 function Header() {
     const { setDisplayEditUser, setDisplayWelcome, setDisplayProject, setDisplayNewProject, setDisplayDeletedMessage, setDisplayLogOut } = useDisplayContext();
 

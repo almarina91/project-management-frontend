@@ -8,6 +8,10 @@ import { useEditContext } from "../../../context/editContext";
 import { useDisplayContext } from "../../../context/displayContext";
 import { useRefreshProjectListContext } from "../../../context/refreshProjectListContext";
 
+/**
+ * Returns options to remove a project.
+ */
+
 function DeleteProject () {
     const { requestUrl } = useGeneralContext();
     const { deleteProjectChecked, setDeleteProjectChecked } = useEditContext();

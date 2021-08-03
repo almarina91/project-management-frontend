@@ -3,7 +3,11 @@ import { CLASS, ROLE, VARIANTS } from "../../../utils/enums";
 import { useTasksContext } from "../../../context/tasksContext";
 import { useEditContext } from "../../../context/editContext";
 import { useCurrentProjectContext } from "../../../context/currentProjectContext";
-import {useGeneralContext} from "../../../context/generalContext";
+import { useGeneralContext } from "../../../context/generalContext";
+
+/**
+ * A component that contains all the tasks related to the project.
+ */
 
 function ProjectTasks(){
     const { setCurrentTask } = useTasksContext();

@@ -1,5 +1,9 @@
 import { CLASS } from "../../../utils/enums";
 
+/**
+ * Displays a message that the project is deleted.
+ */
+
 function DeletedMessage(){
     return(
         <div className={CLASS.welcome}>

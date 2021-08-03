@@ -1,5 +1,9 @@
 import { useAllUsersContext } from "../../../context/allUsersContext";
 
+/**
+ * Options for selecting one of the users.
+ */
+
 function UsersSelect(){
     const { allUsers } = useAllUsersContext();
     return(

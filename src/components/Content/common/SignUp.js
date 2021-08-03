@@ -6,6 +6,11 @@ import { useGeneralContext } from "../../../context/generalContext";
 import { useHistory } from "react-router-dom";
 import { useUserContext } from "../../../context/userContext";
 
+/**
+ * Sign up form.
+ * @const validate - validates the user input
+ */
+
 const validate = values => {
     const errors = {};
     if(!values.name) {

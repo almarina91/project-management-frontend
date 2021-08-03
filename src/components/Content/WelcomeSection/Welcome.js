@@ -1,6 +1,10 @@
-import {CLASS, ROLE, VARIANTS} from "../../../utils/enums";
+import { CLASS, ROLE, VARIANTS } from "../../../utils/enums";
 import { Button } from "react-bootstrap";
-import {useUserContext} from "../../../context/userContext";
+import { useUserContext } from "../../../context/userContext";
+
+/**
+ * A component that returns welcome screen.
+ */
 
 function Welcome() {
 

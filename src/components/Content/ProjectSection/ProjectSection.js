@@ -10,6 +10,10 @@ import ProjectUsers from "./ProjectUsers";
 import ProjectTasks from "./ProjectTasks";
 import EditSection from "../EditSection/EditSection";
 
+/**
+ * A component that displays project section.
+ */
+
 function ProjectSection() {
 
     const { token } = useUserContext();

@@ -6,6 +6,9 @@ import { CurrentProjectContextProvider } from "../../context/currentProjectConte
 import { DisplayContextProvider } from "../../context/displayContext";
 import { RefreshProjectListContextProvider } from "../../context/refreshProjectListContext";
 
+/**
+ * Main page component.
+ */
 
 function MainPage() {
     return(

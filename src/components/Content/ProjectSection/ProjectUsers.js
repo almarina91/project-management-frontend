@@ -2,6 +2,10 @@ import { CLASS } from "../../../utils/enums";
 import { useCurrentProjectContext } from "../../../context/currentProjectContext";
 import { useAllUsersContext } from "../../../context/allUsersContext";
 
+/**
+ * A component that displays the users involved in a project.
+ */
+
 function ProjectUsers(){
 
     const { allUsers } = useAllUsersContext();
@@ -10,12 +14,14 @@ function ProjectUsers(){
 
     return(
         <>
-            {users.map(user => {
+            {
+                users.map(user => {
                 const userFound = allUsers.find(one => one._id === user.id)
                 return <p
                     className={CLASS.elementsListed}> {user.role}: <strong>{userFound.name} {userFound.surname}</strong>
                 </p>
-            })}
+            })
+            }
         </>
     )
 }

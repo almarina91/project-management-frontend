@@ -9,6 +9,10 @@ import { useTasksContext } from "../../../context/tasksContext";
 import { useCurrentProjectContext } from "../../../context/currentProjectContext";
 import { useAllUsersContext } from "../../../context/allUsersContext";
 
+/**
+ * Returns a form to edit a task.
+ */
+
 function EditTask(){
     const { requestUrl, currentProjectRole } = useGeneralContext();
     const { currentTask } = useTasksContext();
