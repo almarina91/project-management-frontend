@@ -6,9 +6,7 @@
 
 [Explore the docs »](https://github.com/almarina91/project-management-frontend)
 
-[View demo](https://almarina91pm.github.io.) *
-
-*please allow some time for server to respond, since the app is hosted on Heroku free tier.
+[View demo *please allow some time for server to respond, since the app is hosted on Heroku free tier.*](https://almarina91pm.github.io.) 
 
 
 <!-- ABOUT THE PROJECT -->
