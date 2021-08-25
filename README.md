@@ -1,6 +1,6 @@
 ![Logo](images/logo.png)
 
-#Project Management App
+# Project Management App
 
 **App for managing small sized projects**
 
@@ -21,10 +21,10 @@ Available roles for the users are Administrator, Project Manager and Developer.
 
 ### Built With
 
-* [MongoDB]()
-* [Express]()
-* [React]()
-* [Node.js]()
+* MongoDB
+* Express
+* React
+* Node.js
 
 
 
