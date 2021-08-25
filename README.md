@@ -16,20 +16,7 @@
 A desktop solution for managing small projects.
 
 Projects are used to organize tasks into logical units. Tasks are used as a child of Project. One task can belong to one Project, and one project can have many tasks.
-Available roles for the users are Administrator, Project Manager and Developer. A system for tracking Tasks and User assignments is administered by the Administrator, who is allowed to do any of the scenarios defined below.
-Scenarios:
-
-● All Users use the same login form.
-
-● Administrator can view, create, modify and delete Projects, Tasks and Users. He can also assign / unassign a Task to a User.
-
-● Project Managers can create Projects, Tasks and assign Tasks to the Developers.
-
-● User can modify Task only if it is assigned to him / her. User with Developer role is allowed to change: status, progress, description. User with Project Manager role is allowed to change: assignee, status, progress, deadline,
-description. User can view only tasks that are assigned to him / her or are not assigned to anyone.
-
-● Project manager can view a list of projects and their progress. Project progress is based on progress
-of all project tasks. (e.g. project with three tasks with progress 0%, 50% and 100% has progress 50%)
+Available roles for the users are Administrator, Project Manager and Developer.
 
 ![mockup](images/mockup.png)
 
@@ -72,6 +59,20 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 Projects are used to organise tasks into logical units. Users can have one of the three roles: Administrator, Project Manager and Developer.
+ A system for tracking Tasks and User assignments is administered by the Administrator, who is allowed to do any of the scenarios defined below.
+Scenarios:
+
+● All Users use the same login form.
+
+● Administrator can view, create, modify and delete Projects, Tasks and Users. He can also assign / unassign a Task to a User.
+
+● Project Managers can create Projects, Tasks and assign Tasks to the Developers.
+
+● User can modify Task only if it is assigned to him / her. User with Developer role is allowed to change: status, progress, description. User with Project Manager role is allowed to change: assignee, status, progress, deadline,
+description. User can view only tasks that are assigned to him / her or are not assigned to anyone.
+
+● Project manager can view a list of projects and their progress. Project progress is based on progress
+of all project tasks. (e.g. project with three tasks with progress 0%, 50% and 100% has progress 50%)
 
 ![usage](images/usagepm.gif)
 
