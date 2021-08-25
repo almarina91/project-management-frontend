@@ -1,70 +1,126 @@
-# Getting Started with Create React App
+![Logo](images/logo.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Project Management App
 
-## Available Scripts
+**App for managing small sized projects**
 
-In the project directory, you can run:
+[Explore the docs »](https://github.com/almarina91/project-management-frontend)
 
-### `yarn start`
+[View demo](https://almarina91pm.github.io.) *
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+*please allow some time for server to respond, since the app is hosted on Heroku free tier.*
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+<!-- ABOUT THE PROJECT -->
+## About The Project
+A desktop solution for managing small projects.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Projects are used to organize tasks into logical units. Tasks are used as a child of Project. One task can belong to one Project, and one project can have many tasks.
+Available roles for the users are Administrator, Project Manager and Developer. A system for tracking Tasks and User assignments is administered by the Administrator, who is allowed to do any of the scenarios defined below.
+Scenarios:
 
-### `yarn build`
+● All Users use the same login form.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+● Administrator can view, create, modify and delete Projects, Tasks and Users. He can also assign / unassign a Task to a User.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+● Project Managers can create Projects, Tasks and assign Tasks to the Developers.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+● User can modify Task only if it is assigned to him / her. User with Developer role is allowed to change: status, progress, description. User with Project Manager role is allowed to change: assignee, status, progress, deadline,
+description. User can view only tasks that are assigned to him / her or are not assigned to anyone.
 
-### `yarn eject`
+● Project manager can view a list of projects and their progress. Project progress is based on progress
+of all project tasks. (e.g. project with three tasks with progress 0%, 50% and 100% has progress 50%)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![mockup](images/mockup.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Built With
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* [MongoDB]()
+* [Express]()
+* [React]()
+* [Node.js]()
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- GETTING STARTED -->
+## Getting Started
 
-### Code Splitting
+To get a local copy up and running follow these simple steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Prerequisites
 
-### Analyzing the Bundle Size
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Installation
 
-### Making a Progressive Web App
+1. Clone the repo
+   ```sh
+   git clone https://github.com/almarina91/project-management-frontend.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- USAGE EXAMPLES -->
+## Usage
+Projects are used to organise tasks into logical units. Users can have one of the three roles: Administrator, Project Manager and Developer.
 
-### Deployment
+![usage](images/usagepm.gif)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<!-- ROADMAP -->
+## Roadmap
 
-### `yarn build` fails to minify
+See the [open issues](https://github.com/almarina91/project-management-frontend/issues) for a list of proposed features (and known issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Marina Grujic - almarina91@gmail.com
+
+Project Link: [https://github.com/almarina91/project-management-frontend](https://github.com/almarina91/project-management-frontend)
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/almarina91/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/almarina91/project-management-frontend/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/almarina91/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/almarina91/project-management-frontend/network/members
+[stars-shield]: https://img.shields.io/github/stars/almarina91/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/almarina91/project-management-frontend/stargazers
+[issues-shield]: https://img.shields.io/github/issues/almarina91/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/almarina91/project-management-frontend/issues
+[license-shield]: https://img.shields.io/github/license/almarina91/repo.svg?style=for-the-badge
+[license-url]: https://github.com/almarina91/project-management-frontend/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/almarina91
